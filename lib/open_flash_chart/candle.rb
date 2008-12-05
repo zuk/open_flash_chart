@@ -4,6 +4,7 @@ module OpenFlashChart
     def initialize(args={})
       super args
       @type = "candle"   
+      @tip = '#x_label#<br>High: #high#<br>Open: #open#<br>Close: #close#<br>Low: #low#';
     end
   end
   
